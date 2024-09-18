@@ -12,7 +12,7 @@ const Banner = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-start text-left text-white">
         <div className="md: mt-28 ml-20 font-bold">
           <span className="text-5xl ">Discover</span>
-          <span class="h-5 w-5 bg-red-500 rounded-full inline-block ml-1 mr-1"></span>
+          <span class="h-5 w-5 bg-red-500 rounded-full inline-block ml-1 mr-1 flex-row justify-center items-center"></span>
           <span className="text-5xl">Interact</span>
           <span class="h-5 w-5 bg-red-500 rounded-full inline-block items-center justify-center ml-1 mr-1"></span>
           <span className="text-5xl">Engage</span>

@@ -1,13 +1,12 @@
 import React from "react";
 import logo from "../../assets/images/Logo-new.png";
 import { NavLink } from "react-router-dom";
-import Banner from "../banner/Banner";
 
 const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/home">HOME</NavLink>
+        <NavLink to="/">HOME</NavLink>
       </li>
       <li>
         <NavLink to="/about">ABOUT US</NavLink>
