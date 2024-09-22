@@ -6,6 +6,7 @@ import Root from "./components/root/Root";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import WhoIsItFor from "./components/whoIsItFor/WhoIsItFor";
+import HowItWorks from "./components/howItWorks/HowItWorks";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/who",
         element: <WhoIsItFor></WhoIsItFor>,
+      },
+      {
+        path: "/how",
+        element: <HowItWorks></HowItWorks>,
       },
     ],
   },
