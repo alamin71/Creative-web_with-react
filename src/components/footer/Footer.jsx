@@ -8,7 +8,7 @@ const Footer = () => {
         <aside>
           <img src={logo} alt="logo" className="w-64" />
           <p>
-            ACME Industries Ltd.
+            Creative Industries Ltd.
             <br />
             Providing reliable tech since 1992
           </p>

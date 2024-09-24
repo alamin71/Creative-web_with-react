@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import WhoIsItFor from "./components/whoIsItFor/WhoIsItFor";
 import HowItWorks from "./components/howItWorks/HowItWorks";
+import Footer from "./components/footer/Footer";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/how",
         element: <HowItWorks></HowItWorks>,
+      },
+      {
+        path: "/contact",
+        element: <Home></Home>,
       },
     ],
   },
